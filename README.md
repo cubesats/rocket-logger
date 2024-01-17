@@ -28,3 +28,6 @@ All components are bought from Pimoroni
 
 ## Modifying the Code
 By default, the Pico will be configured such that the code itself can write to its flash, which causes it to be mounted as a read-only file system when you plug it into a computer. To change the code (or to delete `data.csv`), unplug the Pico from your computer, and use a jumper cable or bit of wire to short pin 0 to any ground connection (there's one labelled "-" two pins away). Keep this connection shorted when you plug it back into your computer, and the Pico should mount itself in writeable mode. No data can be written to the log file while the Pico is in this mode.
+
+## Libraries
+Libraries in the `libs/` directory are from [Adafruit's CircuitPython Bundle](https://github.com/adafruit/Adafruit_CircuitPython_Bundle), and are redistributed for convenience of install. The most up-to-date versions can be found in their original repository.
