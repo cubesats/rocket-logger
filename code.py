@@ -16,7 +16,7 @@ with open("data.csv", "a") as f:
         # Save to the buffer
         buffer += "%.3f,%.3f,%.3f,%.3f,%.3f,%.3f,%.3f,%.3f,%.3f,%.3f\n" % (time.monotonic(), icm.acceleration[0], icm.acceleration[1], icm.acceleration[2], icm.gyro[0], icm.gyro[1], icm.gyro[2], icm.magnetic[0], icm.magnetic[1], icm.magnetic[2])
 
-        # Write to the flash at a slower rate (1/20 speed)
+        # Write to the flash at a slower rate (every 5 sec)
         if(int(time.monotonic()) % 5 == 0):
             f.write(buffer)
             buffer = ""
