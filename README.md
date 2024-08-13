@@ -10,7 +10,7 @@ All components are bought from Pimoroni
 - Any USB-C cable, for loading the code and accessing the data
 
 ## Assembly
-1. If you haven't already, install [CircuitPython](https://circuitpython.org/board/pimoroni_picolipo_16mb/) on your Pico, by dragging and dropping the `.uf2` file onto the drive named `RPI-RP2`. The drive should disappear, then re-mount under the new name `CIRCUITPY`. You'll need v8.2.9 to run.
+1. If you haven't already, install [CircuitPython](https://adafruit-circuit-python.s3.amazonaws.com/bin/pimoroni_picolipo_16mb/en_GB/adafruit-circuitpython-pimoroni_picolipo_16mb-en_GB-8.2.9.uf2) on your Pico, by dragging and dropping the `.uf2` file onto the drive named `RPI-RP2`. The drive should disappear, then re-mount under the new name `CIRCUITPY`. You'll need v8.2.9 to run, which the previous link should download.
 2. Use the JST cable to connect the Pico and the motion sensor
 3. Copy and paste the whole `libs/`, `code.py`, and `boot.py` from this repository to the Pico's drive, ideally in that order.
 4. Unplug the Pico from your computer, and plug in the battery to the slot on the Pico
